@@ -1,0 +1,77 @@
+# Meal and tip calculater: Create a program that calculates the total amount of a meal purchased at a restaurant.
+# 2/02/2019
+# CTI-110 P2HW2 - Meal Tip Calculator
+# Walter Rutherford
+
+
+
+# Get total amount of meal
+# Calculate %15 of the mealcost for the tip price
+# Add the tip amount to the amount of the meal
+# Display the total cost 
+
+
+Amount_Charged= float(input('Amount Charged?'))
+
+Tip_Amount= Amount_Charged * .15
+
+print ("The tip amount is: $", Tip_Amount,'0')
+
+total_cost = Tip_Amount + Amount_Charged
+
+print("The total is: $",total_cost,'0')
+
+
+print("\n")
+
+# Get total amount of meal
+# Calculate %18 of the mealcost for the tip price
+# Add the tip amount to the amount of the meal
+# Display the total cost 
+
+
+Amount_Charged = float(input('Amount Charged ?'))
+
+Tip_Amount= Amount_Charged * .18  
+
+print ("The tip amount is: $", Tip_Amount,)
+
+total_cost = Tip_Amount + Amount_Charged
+
+print("The total is: $",total_cost,'0')
+
+
+
+print("\n")
+
+# Get total amount of meal
+# Calculate %20 of the mealcost for the tip price
+# Add the tip amount to the amount of the meal
+# Display the total cost 
+
+
+
+Amount_Charged = float(input('Amount Charged ?'))
+
+Tip_Amount= Amount_Charged * .20  
+
+print ("The tip amount is: $", Tip_Amount,'0')
+
+total_cost = Tip_Amount + Amount_Charged
+
+print("The total is: $",total_cost,'0')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
